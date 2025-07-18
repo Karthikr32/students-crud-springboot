@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enrolled Courses</title>
+    <script src="myScripts.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+      <nav class="nav-container">
+        <div class="title">
+          <img src="./Img/Besant_logo.jpeg" alt="" />
+          <h1>Besant Technology</h1>
+        </div>
+
+        <div class="list-items">
+          <ul>
+            <li><a href="form.html">Register a Course</a></li>
+            <li><a href="availableCourses.html">Available Courses</a></li>
+            <li><a href="enrolledCourses.html">Enrolled Courses</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="table-container">
+        <table border="2">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Date Of Registration</th>
+              <th>Name</th>
+              <th>Email ID</th>
+              <th>Mobile Number</th>
+              <th>Location</th>
+              <th>Course Enrolled</th>
+              <th>Batch Allocation</th>
+              <th>Profession</th>
+              <th>Interested In Trainer</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="enrolled-course-tbody"></tbody>
+        </table>
+      </div>
+
+    <script>
+      window.addEventListener("load", () => {
+        showEnrolledDetails();
+      });
+    </script>
+  </body>
+</html>

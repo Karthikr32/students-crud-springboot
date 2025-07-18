@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Available Courses</title>
+    <script src="myScripts.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <nav class="nav-container">
+      <div class="title">
+        <img src="./Img/Besant_logo.jpeg" alt="" />
+        <h1>Besant Technology</h1>
+      </div>
+
+      <div class="list-items">
+        <ul>
+          <li><a href="form.html">Register a Course</a></li>
+          <li><a href="availableCourses.html">Available Courses</a></li>
+          <li><a href="enrolledCourses.html">Enrolled Courses</a></li>
+        </ul>
+      </div>
+    </nav>
+
+      <div class="table-container">
+        <table border="2">
+          <thead>
+            <tr>
+              <th>Course Id</th>
+              <th>Course Name</th>
+              <th>Trainer</th>
+              <th>Duration In Weeks</th>
+            </tr>
+          </thead>
+
+          <tbody id="available-course-tbody"></tbody>
+        </table>
+      </div>
+
+    <script>
+      window.addEventListener("load", () => {
+        showAvailableCourses();
+      });
+    </script>
+  </body>
+</html>

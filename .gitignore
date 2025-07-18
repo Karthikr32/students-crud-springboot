@@ -1,0 +1,10 @@
+# Ignore Spring Boot compiled files
+BesantTechnologyCourseReg/target/
+
+# Ignore editor-specific folders
+.vscode/
+.idea/
+
+# Ignore logs and system files
+*.log
+.DS_Store
