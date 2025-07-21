@@ -44,3 +44,11 @@ The system is engineered with best practices in both frontend and backend develo
 
 # Steps to Implement locally
 - Clone the repository >> Create a DB on ur machine >> Update application.properties with your actual DB credentials.
+
+# Screenshots:
+![HOME_PAGE](./screenshots/home.JPG)
+![TRAINER_INFO](./screenshots/trainer.JPG)
+![ERROR_HANDLING](./screenshots/error.JPG)
+![SUCCEESS](./screenshots/success.JPG)
+![ENROLLED](./screenshots/db.JPG)
+![DELETE_ID](./screenshots/delete.JPG)
